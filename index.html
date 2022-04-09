@@ -2,93 +2,115 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <!-- Icone -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/icone.ico" />
+    <!-- Responsivo -->
+    <link rel="stylesheet" href="/style/responsive.css">
+    <!-- Botão -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!--responsividade-->
-    <link rel="stylesheet" href="style/responsive.css">
+    <!-- owl css -->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
 
-    <!--owl css-->
-    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-
-    <title>NETFLIX CLONE</title>
+    <title>OTAKU.GO Animes</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+        <a href="index.html"><img class="logo" src="/img/logo.png" alt=""></a>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Series</a></li>
+                <li><a href="">Filmes</a></li>
+                <li><a href="">Gêneros</a></li>
+                <div class="search-container">
+                <form action="*">
+                <input type="text" placeholder="Busca...">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                </div>
+            </ul>
             </nav>
+
         </div>
     </header>
-
     <main>
+
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">HOUSE OF CARDS</h3>
-                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.</p>
-                <div class="botoes">
-                    <button role="button" class="botao">
-                        <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
-                    </button>
-                    <button role="button" class="botao">
-                        <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
-                    </button>
-                </div>
+                <h3 class="titulo">DEMON SLAYER</h3>
+                <p class="descricao">
+                    Tanjiro Kamado, junto com Inosuke Hashibira, um garoto criado por javalis que usa uma cabeça de javali, e Zenitsu Agatsuma, um garoto assustado que revela seu verdadeiro poder quando dorme, embarca no Trem Infinito em uma nova missão com o Hashira de Fogo, Kyojuro Rengoku, para derrotar um demônio que tem atormentado o povo e matado os caçadores de oni que se opõem a ele!
+                    </p>
+                    <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-circle-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-circle-info"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
             </div>
         </div>
+    <hr>                                        <!-- CARROSEL -->
     </main>
-
     <div class="carrosel-filmes">
         <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini10.jpg" alt="" srcset="">
-                </div>
-        </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini1.jpg" alt="elemento capa de filme">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini2.jpg" alt="elemento capa de filme">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini3.jpg" alt="elemento capa de filme">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini4.jpg" alt="elemento capa de filme">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini5.jpg" alt="elemento capa de filme">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini6.jpg" alt="elemento capa de filme">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini7.jpg" alt="elemento capa de filme">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini8.jpg" alt="elemento capa de filme">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini9.jpg" alt="elemento capa de filme">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini10.jpg" alt="elemento capa de filme">
+            </div>
+        </div>  
     </div>
+    <hr>
+                                <!--Vídeo e chat  -->
+    <div class="assistir">
+        <div class="player">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uYfiq-IqxgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+
+    </div>
+        
 
 
-
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-    <script src="js/owl/jquery.min.js"></script>
-    <script src="js/owl/owl.carousel.min.js"></script>
-    <script src="js/owl/setup.js"></script>
- 
-
- 
+                                            <!--Setup JS e Jquery  -->
+        <script src="https://kit.fontawesome.com/3e6745988e.js" crossorigin="anonymous"></script>
+        <script src="/js/owl/jquery.min.js"></script>
+        <script src="/js/owl/owl.carousel.min.js"></script>
+        <script src="/js/owl/setup.js"></script>
 </body>
 </html>
